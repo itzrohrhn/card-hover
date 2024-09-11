@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+body h1{
+    margin-top: 20px;
+    color: #745f57;
+    margin-left: 50px;
+}
+.card-container{
+    display: flex;
+    padding: 50px;
+
+}
+.card{
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 2px 2px 15px #bababa;
+}
+.card h2{
+    font-size: 20px;
+    color: rgb(212 222 223);
+}
+.card p{
+    font-size: 14px;
+    color: #717171;
+}
+.card a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #745f57;
+    font-weight: 800;
+}
+.card img{
+    transition: 0.3s linear all;
+}
+.image-wrap{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 0.3s linear all;
+}
+@media screen and (max-width: 700px){
+    .card-container{
+        display: block;
+        padding:20px;
+    }
+}
